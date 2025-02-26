@@ -38,6 +38,10 @@ public class Jugador extends MutxamelIFC implements AccionesDeportivas{
         System.out.println(getNombre() + " descansando para recuperar energías...");
     }
 
+    public void marcarGol(){
+        System.out.println("GOLAZO DE " + getNombre());
+    }
+
     public int getDorsal() {
         return dorsal;
     }
@@ -74,12 +78,12 @@ public class Jugador extends MutxamelIFC implements AccionesDeportivas{
 
     @Override
     public void concentrarse() {
-        System.out.println("Concentrándose para hacer una jugada increíble.");
+        System.out.println(getNombre() + " concentrándose para hacer una jugada increíble.");
     }
 
     @Override
     public void viajar(String ciudad) {
-        System.out.println("Viajando a " + ciudad + " para jugar el siguiente partido.");
+        System.out.println(getNombre() + " viajando a " + ciudad + " para jugar el siguiente partido.");
     }
 
     @Override

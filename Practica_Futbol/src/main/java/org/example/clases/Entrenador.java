@@ -30,7 +30,7 @@ public class Entrenador extends MutxamelIFC implements AccionesDeportivas{
 
     @Override
     public void entrenar() {
-        System.out.println("Entrenando al equipo " + equipo);
+        System.out.println(getNombre() + " entrenando al equipo " + equipo);
     }
 
     @Override
@@ -45,7 +45,7 @@ public class Entrenador extends MutxamelIFC implements AccionesDeportivas{
 
     @Override
     public void viajar(String ciudad) {
-        System.out.println("Viajando a " + ciudad);
+        System.out.println(getNombre() + " viajando a " + ciudad);
     }
 
     @Override

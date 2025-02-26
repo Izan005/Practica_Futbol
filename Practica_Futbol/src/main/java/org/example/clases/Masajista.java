@@ -22,7 +22,7 @@ public class Masajista extends MutxamelIFC{
 
     @Override
     public void viajar(String ciudad) {
-        System.out.println("Viajando a " + ciudad + " para apoyar al equipo.");
+        System.out.println(getNombre() + " viajando a " + ciudad + " para apoyar al equipo.");
     }
 
     @Override
