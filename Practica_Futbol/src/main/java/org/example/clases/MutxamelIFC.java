@@ -1,9 +1,14 @@
 package org.example.clases;
 
+/**
+ * @author Izan López Mora 1DAM
+ * Clase abstracta de la que heredan las clases Jugador, Masajista, Entrenador y Acompañante. Esta clase también hereda
+ * métodos de la interfaz FuncionesIntegrantes.
+ */
 abstract class MutxamelIFC implements FuncionesIntegrantes{
 
-    private String nombre;
-    private int edad;
+    private String nombre; //Nombre del individuo
+    private int edad; //Edad del individuo
 
     public MutxamelIFC(String nombre, int edad) {
         this.nombre = nombre;

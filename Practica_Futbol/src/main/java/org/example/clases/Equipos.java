@@ -1,5 +1,9 @@
 package org.example.clases;
 
+/**
+ * @author Izan López Mora 1DAM
+ * Enum que guarda los tipos de equipos posibles.
+ */
 public enum Equipos {
-    BENJAMIN,ALEVÍN,INFANTIL,CADETE,JUVENIL,SENIOR;
+    BENJAMIN,ALEVIN,INFANTIL,CADETE,JUVENIL,SENIOR;
 }
